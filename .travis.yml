@@ -13,4 +13,4 @@ install:
   - pip install .
 # command to run tests
 script:
-  - acasearch --query 'Attention is all you need' --out 'out' --num 5
+  - pytest
