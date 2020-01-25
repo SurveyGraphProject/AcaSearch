@@ -17,7 +17,7 @@ pip install git+https://github.com/AtomScott/scholar-api.git
 ## Easy run
 
 ```bash
-acasearch --query 'Attention is all you need' --out 'out' --num 5
+acasearch --query 'Attention is all you need' --out './' --num 5
 ```
 This should output a json file @ ./out/6785239.json. The contents are something like:
 
