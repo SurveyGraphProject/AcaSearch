@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # python script from command line
 import os
 import argparse
