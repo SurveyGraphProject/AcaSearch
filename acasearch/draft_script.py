@@ -6,7 +6,12 @@ from pybtex import database
 # Example bib file
 bibs = database.parse_file('sample.bib')
 for bib_title, bib_entry in bibs.entries.items():
-    query = {}
+    query = {
+        'title': '',
+        'abstract': '',
+        'authors': ,'',
+        
+        }
     for key, value in bib_entry.fields.items():
         query[key] = value
     
