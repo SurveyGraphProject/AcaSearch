@@ -35,6 +35,7 @@ if __name__ == "__main__":
             id_list.append(res.get('id'))
 
     if query:
+        title = query
         res = arxiv_search(title, n=1)
         id_list.append(res.get('id'))
 
