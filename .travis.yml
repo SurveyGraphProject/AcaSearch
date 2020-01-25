@@ -11,3 +11,7 @@ install:
 script:
   - pytest
   - acasearch --query 'Attention is all you need' --num 5 --dry
+  - pytest --cov=acasearch
+
+after_success:
+  - coveralls
