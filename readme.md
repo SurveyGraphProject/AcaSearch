@@ -1,5 +1,7 @@
-# Scholar API
+# AcaSearch
 
+Academic paper search python package.
+ 
 Still in development. Zeros guarantee for anything.
 
 Testing on python 3.6~3.8
