@@ -1,4 +1,4 @@
-# AcaSearch
+# AcaSearch ![Build Status](https://travis-ci.org/AtomScott/scholar-api.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/AtomScott/scholar-api/badge.svg?branch=master)](https://coveralls.io/github/AtomScott/scholar-api?branch=master)
 
 Academic paper search python package.
  
@@ -6,9 +6,7 @@ Still in development. Zeros guarantee for anything.
 
 Testing on python 3.6~3.8
 
-![Build Status](https://travis-ci.org/AtomScott/scholar-api.svg?branch=master)
 
-[![Coverage Status](https://coveralls.io/repos/github/AtomScott/scholar-api/badge.svg?branch=master)](https://coveralls.io/github/AtomScott/scholar-api?branch=master)
 
 ## Install via pip
 
