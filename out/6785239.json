@@ -1,0 +1,220 @@
+{
+    "referencesFrom": [
+        {
+            "articleId": 100128869,
+            "authors": [
+                {
+                    "id": 43571357,
+                    "name": "Yifu Liu"
+                },
+                {
+                    "id": 50562182,
+                    "name": "Chenfeng Xu"
+                },
+                {
+                    "id": 3736337,
+                    "name": "Zhihong Chen"
+                }
+            ],
+            "authorsCount": 0,
+            "citationsCount": 0,
+            "title": "Deep Dual-Stream Network with Scale Context Selection Attention Module for Semantic Segmentation",
+            "year": 2020
+        },
+        {
+            "articleId": 100101576,
+            "authors": [
+                {
+                    "id": 8434093,
+                    "name": "Chao Wang"
+                }
+            ],
+            "authorsCount": 1,
+            "citationsCount": 0,
+            "title": "A Study of the Tasks and Models in Machine Reading Comprehension",
+            "year": 2020
+        },
+        {
+            "articleId": 100101318,
+            "authors": [
+                {
+                    "id": 34786181,
+                    "name": "Jared Kaplan"
+                },
+                {
+                    "id": 34784793,
+                    "name": "Sam McCandlish"
+                },
+                {
+                    "id": 4013815,
+                    "name": "Tom Henighan"
+                },
+                {
+                    "id": 2009596,
+                    "name": "Tom B. Brown"
+                }
+            ],
+            "authorsCount": 10,
+            "citationsCount": 0,
+            "title": "Scaling Laws for Neural Language Models",
+            "year": 2020
+        },
+        {
+            "articleId": 100101292,
+            "authors": [
+                {
+                    "id": 50546204,
+                    "name": "Clarence Chen"
+                },
+                {
+                    "id": 978055,
+                    "name": "Zachary Pardos"
+                }
+            ],
+            "authorsCount": 2,
+            "citationsCount": 0,
+            "title": "Applying Recent Innovations from NLP to MOOC Student Course Trajectory  Modeling",
+            "year": 2020
+        },
+        {
+            "articleId": 100101277,
+            "authors": [
+                {
+                    "id": 30446812,
+                    "name": "Neo Wu"
+                },
+                {
+                    "id": 48850607,
+                    "name": "Bradley Green"
+                },
+                {
+                    "id": 7445082,
+                    "name": "Xue Ben"
+                },
+                {
+                    "id": 12913045,
+                    "name": "Shawn O'Banion"
+                }
+            ],
+            "authorsCount": 4,
+            "citationsCount": 0,
+            "title": "Deep Transformer Models for Time Series Forecasting: The Influenza  Prevalence Case",
+            "year": 2020
+        }
+    ],
+    "referencesTo": [
+        {
+            "articleId": 2415642,
+            "authors": [
+                {
+                    "id": 2015613,
+                    "name": "Jimmy Lei Ba"
+                },
+                {
+                    "id": 1212846,
+                    "name": "Jamie Ryan Kiros"
+                },
+                {
+                    "id": 860640,
+                    "name": "Geoffrey E. Hinton"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 785,
+            "title": "Layer Normalization.",
+            "year": 2016
+        },
+        {
+            "articleId": 1158967,
+            "authors": [
+                {
+                    "id": 2804728,
+                    "name": "Dzmitry Bahdanau"
+                },
+                {
+                    "id": 3389591,
+                    "name": "Kyunghyun Cho"
+                },
+                {
+                    "id": 3762142,
+                    "name": "Yoshua Bengio"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 3033,
+            "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "year": 2014
+        },
+        {
+            "articleId": 2628207,
+            "authors": [
+                {
+                    "id": 4376323,
+                    "name": "Denny Britz"
+                },
+                {
+                    "id": 7614090,
+                    "name": "Anna Goldie"
+                },
+                {
+                    "id": 2711579,
+                    "name": "Minh-Thang Luong"
+                },
+                {
+                    "id": 1969457,
+                    "name": "Quoc V. Le"
+                }
+            ],
+            "authorsCount": 4,
+            "citationsCount": 101,
+            "title": "Massive Exploration of Neural Machine Translation Architectures",
+            "year": 2017
+        },
+        {
+            "articleId": 1694371,
+            "authors": [
+                {
+                    "id": 3391577,
+                    "name": "Jianpeng Cheng"
+                },
+                {
+                    "id": 5113066,
+                    "name": "Li Dong"
+                },
+                {
+                    "id": 3286765,
+                    "name": "Mirella Lapata"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 96,
+            "title": "Long Short-Term Memory-Networks for Machine Reading",
+            "year": 2016
+        },
+        {
+            "articleId": 20499643,
+            "authors": [
+                {
+                    "id": 3389591,
+                    "name": "Kyunghyun Cho"
+                },
+                {
+                    "id": 599172,
+                    "name": "Bart Van Merri\u00ebnboer"
+                },
+                {
+                    "id": 3039240,
+                    "name": "\u00c7aglar G\u00fcl\u00e7ehre"
+                },
+                {
+                    "id": 2804728,
+                    "name": "Dzmitry Bahdanau"
+                }
+            ],
+            "authorsCount": 7,
+            "citationsCount": 1597,
+            "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation.",
+            "year": 2014
+        }
+    ]
+}

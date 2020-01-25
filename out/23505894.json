@@ -1,0 +1,182 @@
+{
+    "referencesFrom": [
+        {
+            "articleId": 42668271,
+            "authors": [
+                {
+                    "id": 4508986,
+                    "name": "Taesup Kim"
+                },
+                {
+                    "id": 11387095,
+                    "name": "Jaesik Yoon"
+                },
+                {
+                    "id": 6873547,
+                    "name": "Ousmane Dia"
+                },
+                {
+                    "id": 3635930,
+                    "name": "Sungwoong Kim"
+                }
+            ],
+            "authorsCount": 6,
+            "citationsCount": 23,
+            "title": "Bayesian Model-Agnostic Meta-Learning",
+            "year": 2018
+        },
+        {
+            "articleId": 42648630,
+            "authors": [
+                {
+                    "id": 1544780,
+                    "name": "Chelsea Finn"
+                },
+                {
+                    "id": 4590547,
+                    "name": "Kelvin Xu"
+                },
+                {
+                    "id": 4952919,
+                    "name": "Sergey Levine"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 64,
+            "title": "Probabilistic Model-Agnostic Meta-Learning",
+            "year": 2018
+        },
+        {
+            "articleId": 42474533,
+            "authors": [
+                {
+                    "id": 980531,
+                    "name": "Boris N. Oreshkin"
+                },
+                {
+                    "id": 4949860,
+                    "name": "Pau Rodriguez"
+                },
+                {
+                    "id": 2544374,
+                    "name": "Alexandre Lacoste"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 67,
+            "title": "TADAM: Task dependent adaptive metric for improved few-shot learning",
+            "year": 2018
+        }
+    ],
+    "referencesTo": [
+        {
+            "articleId": 1246966,
+            "authors": [
+                {
+                    "id": 755090,
+                    "name": "Charles Blundell"
+                },
+                {
+                    "id": 2778619,
+                    "name": "Julien Cornebise"
+                },
+                {
+                    "id": 2551910,
+                    "name": "Koray Kavukcuoglu"
+                },
+                {
+                    "id": 3465235,
+                    "name": "Daan Wierstra"
+                }
+            ],
+            "authorsCount": 4,
+            "citationsCount": 168,
+            "title": "Weight Uncertainty in Neural Networks",
+            "year": 2015
+        },
+        {
+            "articleId": 17537813,
+            "authors": [
+                {
+                    "id": 1501854,
+                    "name": "David Krueger"
+                },
+                {
+                    "id": 7877919,
+                    "name": "Chin-Wei Huang"
+                },
+                {
+                    "id": 3657224,
+                    "name": "Riashat Islam"
+                },
+                {
+                    "id": 310694,
+                    "name": "Ryan Turner"
+                }
+            ],
+            "authorsCount": 6,
+            "citationsCount": 34,
+            "title": "Bayesian Hypernetworks",
+            "year": 2017
+        },
+        {
+            "articleId": 6805528,
+            "authors": [
+                {
+                    "id": 4666252,
+                    "name": "Yarin Gal"
+                },
+                {
+                    "id": 3657224,
+                    "name": "Riashat Islam"
+                },
+                {
+                    "id": 2570512,
+                    "name": "Zoubin Ghahramani"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 52,
+            "title": "Deep Bayesian Active Learning with Image Data.",
+            "year": 2017
+        },
+        {
+            "articleId": 21838811,
+            "authors": [
+                {
+                    "id": 1042975,
+                    "name": "Ian J. Goodfellow"
+                },
+                {
+                    "id": 2398066,
+                    "name": "Jean Pouget-Abadie"
+                },
+                {
+                    "id": 8799500,
+                    "name": "Mehdi Mirza"
+                }
+            ],
+            "authorsCount": 8,
+            "citationsCount": 5263,
+            "title": "Generative Adversarial Nets.",
+            "year": 2014
+        },
+        {
+            "articleId": 2394798,
+            "authors": [
+                {
+                    "id": 738472,
+                    "name": "Harrison Edwards"
+                },
+                {
+                    "id": 1427474,
+                    "name": "Amos J. Storkey"
+                }
+            ],
+            "authorsCount": 2,
+            "citationsCount": 53,
+            "title": "Towards a Neural Statistician",
+            "year": 2016
+        }
+    ]
+}

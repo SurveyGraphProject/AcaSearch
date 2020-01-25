@@ -1,0 +1,56 @@
+# python script from command line
+import os
+import argparse
+from acasearch import *
+
+if __name__ == "__main__":
+    # arguments
+    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser.add_argument('--bibtex_path', default='', help='Path to .bib file')
+    parser.add_argument('--query', default='', help='title of paper')
+    parser.add_argument('--out', default='./', help='path to output results')
+    parser.add_argument('--verbose', default=False, action='store_true', help='Call for debug run')
+    parser.add_argument('--num', default=5, type=int)
+    args = parser.parse_args()
+    
+    verbose = args.verbose
+    bibtex_path = args.bibtex_path
+    query = args.query
+    out = args.out
+    n = args.num
+
+    # Color logger
+    logger = create_logger(name=__name__, verbose=verbose)
+
+    if bibtex_path and query:
+        logger.critical('Either --bibtex_path or --query, not both')
+        exit(0)
+
+    id_list = []
+    if bibtex_path:
+        bibs = parse_bibtex(bibtex_path)
+        for bib in bibs:
+            title = bib.get('title')
+            res = arxiv_search(title, n=1)
+            id_list.append(res.get('id'))
+
+    if query:
+        res = arxiv_search(title, n=1)
+        id_list.append(res.get('id'))
+
+    logging.info('Papers found are {0}'.format(id_list))
+
+    for arxiv_id in id_list:
+        prophy_id = get_prophy_id(os.path.basename(arxiv_id))
+        references_from, references_to = get_citation_tree(prophy_id)
+        out_path = os.path.join(out, str(prophy_id)+'.json')
+        with open(out_path, 'w+') as f:
+            f.write(json.dumps(
+                {
+                    'referencesTo' : format_references(references_from, n),
+                    'referencesFrom' : format_references(references_to, n)
+                },
+                sort_keys=True, indent=4))
+        
+        logging.debug('Wrote {}'.format(out_path))
+    logging.info('Finished.')

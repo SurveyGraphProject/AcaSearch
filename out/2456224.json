@@ -1,0 +1,118 @@
+{
+    "referencesFrom": [],
+    "referencesTo": [
+        {
+            "articleId": 1155028,
+            "authors": [
+                {
+                    "id": 3994934,
+                    "name": "Yangqing Jia"
+                },
+                {
+                    "id": 3188712,
+                    "name": "Evan Shelhamer"
+                },
+                {
+                    "id": 4973770,
+                    "name": "Jeff Donahue"
+                },
+                {
+                    "id": 3307431,
+                    "name": "Sergey Karayev"
+                }
+            ],
+            "authorsCount": 8,
+            "citationsCount": 1587,
+            "title": "Caffe: Convolutional Architecture for Fast Feature Embedding *",
+            "year": 2014
+        },
+        {
+            "articleId": 9177656,
+            "authors": [
+                {
+                    "id": 3012736,
+                    "name": "Andrej Karpathy"
+                },
+                {
+                    "id": 2844442,
+                    "name": "George Toderici"
+                },
+                {
+                    "id": 3188193,
+                    "name": "Sanketh Shetty"
+                }
+            ],
+            "authorsCount": 6,
+            "citationsCount": 1171,
+            "title": "Large-Scale Video Classification with Convolutional Neural Networks.",
+            "year": 2014
+        },
+        {
+            "articleId": 13540147,
+            "authors": [
+                {
+                    "id": 12044268,
+                    "name": "H. Kuehne"
+                },
+                {
+                    "id": 9909326,
+                    "name": "H. Jhuang"
+                },
+                {
+                    "id": 11922815,
+                    "name": "E. Garrote"
+                }
+            ],
+            "authorsCount": 5,
+            "citationsCount": 495,
+            "title": "HMDB: A large video database for human motion recognition",
+            "year": 2011
+        },
+        {
+            "articleId": 734059,
+            "authors": [
+                {
+                    "id": 3180106,
+                    "name": "Khurram Soomro"
+                },
+                {
+                    "id": 921309,
+                    "name": "Amir Roshan Zamir"
+                },
+                {
+                    "id": 3866788,
+                    "name": "Mubarak Shah"
+                }
+            ],
+            "authorsCount": 3,
+            "citationsCount": 802,
+            "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+            "year": 2012
+        },
+        {
+            "articleId": 16085988,
+            "authors": [
+                {
+                    "id": 4738548,
+                    "name": "Du Tran"
+                },
+                {
+                    "id": 3096604,
+                    "name": "Lubomir D. Bourdev"
+                },
+                {
+                    "id": 4543548,
+                    "name": "Rob Fergus"
+                },
+                {
+                    "id": 2482702,
+                    "name": "Lorenzo Torresani"
+                }
+            ],
+            "authorsCount": 5,
+            "citationsCount": 975,
+            "title": "Learning Spatiotemporal Features with 3D Convolutional Networks.",
+            "year": 2015
+        }
+    ]
+}
