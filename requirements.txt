@@ -1,7 +1,7 @@
 -e git+https://github.com/AtomScott/scholar-api.git@f3ccd64b9dbd40d27573343ddd481fb109e1c5b7#egg=acasearch
 arxiv==0.5.1
 attrs==19.3.0
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 colorlog==4.1.0
 feedparser==5.2.1
